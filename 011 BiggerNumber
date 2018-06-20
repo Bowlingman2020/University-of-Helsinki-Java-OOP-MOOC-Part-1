@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class BiggerNumber {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+
+      
+
+          System.out.print("Type a number: ");
+        int firstnumber = Integer.parseInt(reader.nextLine());
+         System.out.print("Type another number: ");
+           int secondnumber = Integer.parseInt(reader.nextLine());
+           int biggernumber = firstnumber / secondnumber;
+          if(firstnumber>secondnumber) {
+              System.out.println("The bigger number of the two given was: " + firstnumber);
+          }
+          else{
+              System.out.println("The bigger number of the two given was:" + secondnumber);
+          }
+        
+        // Implement your program here. Remember to ask the input from user
+    }
+}
