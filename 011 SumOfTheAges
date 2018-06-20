@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SumOfTheAges {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+      
+ 
+
+          System.out.print("Type your name: ");
+        String nameone = reader.nextLine();
+        System.out.print("Type your age: ");
+        int ageone = Integer.parseInt(reader.nextLine());
+         System.out.print("Type your name: ");
+        String nametwo = reader.nextLine();
+        System.out.print("Type your age: ");
+        int agetwo = Integer.parseInt(reader.nextLine());
+        int totalage = ageone + agetwo;
+           
+          System.out.println(nameone + " and "+ nametwo + " are " + totalage + " years old in total.");
+    }
+}
