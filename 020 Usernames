@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Usernames {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        String usernameone="alex";
+        String usernametwo="emily";
+        String passwordone = "mightyducks";
+        String passwordtwo = "cat";
+        
+        System.out.print("Type your username ");
+        String inputUsername = reader.nextLine();
+
+        System.out.print("Type your password ");
+        String inputPassword = reader.nextLine();
+        
+        if (inputUsername.equals(usernameone) && inputPassword.equals(passwordone))   {
+ 
+                   
+             System.out.println("You are now logged into the system!");
+           
+        }  
+           
+        else if (inputUsername.equals(usernametwo) && inputPassword.equals(passwordtwo))  {
+                    
+           System.out.println("You are now logged into the system!");
+               
+        }  else {
+            
+            System.out.println("Your username or password was invalid!");
+        }
+        
+        
+                    
+   
+           
+           
+       
+    }
+}
+
+
