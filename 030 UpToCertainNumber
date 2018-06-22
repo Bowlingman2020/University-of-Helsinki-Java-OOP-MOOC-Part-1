@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class UpToCertainNumber {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+       int count= 1;
+       int number=0;
+       System.out.print("Up to what number? ");
+       number = Integer.parseInt(reader.nextLine());
+       
+        while(count <=number){
+            
+                   
+            
+            System.out.println(count);
+            count = count + 1;
+               
+        
+    }
+}
+}
