@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class LengthOfName {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+         System.out.print("Type your name: ");
+         String inputUsername = reader.nextLine();
+         int characterNumbers = calculateCharacters(inputUsername);
+         System.out.print("Number of characters: " + characterNumbers);
+// call your method from here
+    }
+  
+    public static int calculateCharacters(String text) {
+      int length = text.length();
+      return length;
+            
+}
+}
